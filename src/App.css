@@ -1,0 +1,81 @@
+:root{
+  --primary-color:rgba(6, 128, 235, 0.992);
+  --secondary-color:rgb(43, 41, 41)
+}
+::-webkit-scrollbar{
+  overflow: hidden;
+}
+.App{ 
+  display: flex;
+  width: 100%;
+  margin-left: 7%;
+}
+ol{
+  overflow: hidden;
+}
+
+img{
+  width: 20%;
+  height: 30vh;
+  margin: 2px;
+  transition: 0.5s ease;
+}
+.App ol img:hover{
+  transform: scale(1.1);
+}
+.title{
+  text-align: center;
+  color: var(--primary-color);
+}
+.title:hover{
+  color:rgb(7, 6, 6);
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar{
+  width: 30%;
+  height: 5vh;
+  font-size: 26px;
+  font-family: 'Lora',sans-serif;
+  border: 1px solid var(--secondary-color);
+  border-right: none;
+}
+.search-bar:focus{
+  outline: none;
+}
+#search-btn{
+  height: 5.7vh;
+  width: 5%;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  border-left: none;
+  color: rgb(246, 239, 239);
+  margin-left: 0;
+}
+#search-btn:hover{
+  background-color:rgb(7, 6, 6);
+}
+.search-queries{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 1rem;
+}
+button{
+  height: 5.9vh;
+  width: 8%;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: 'Poppins',sans-serif;
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: white;
+  margin-left: 0.5rem;
+}
+button:hover{
+  background-color:rgb(7, 6, 6);
+}
